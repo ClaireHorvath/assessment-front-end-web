@@ -1,0 +1,78 @@
+/* My CSS code is towards the bottom */
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+/* img {
+	max-width: 300px; */
+/* } */
+
+/* My CSS code is underneath */
+
+body {
+    height: 50vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+/* img {
+    height: 300px;
+    width: 400px;
+    margin: 50px;
+    background-repeat: no-repeat;
+} */
+
+button {
+    color: rgb(187, 25, 79); 
+}
+
+li {
+    color: purple;
+}
+
+p {
+    color: orangered;
+}
+
+.button-color {
+    color: rgb(187, 25, 79);
+	background-color: yellow;
+	text-align: center;
+	padding: 30px;
+}
